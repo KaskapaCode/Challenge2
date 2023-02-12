@@ -50,7 +50,7 @@ h1{
 
 label {
     display: inline-block;
-    margin-right: 12px;
+    margin-right: 10px;
     color: hsl(216, 12%, 54%);
     background-color: hsl(213, 19%, 18%);
     font-family: 'Overpass', sans-serif;
