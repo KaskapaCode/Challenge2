@@ -1,0 +1,95 @@
+body{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    background-color: hsl(216, 12%, 8%);
+}
+#container{
+    background-image: radial-gradient(circle at center top,hsl(213, 19%, 18%), hsl(210, 13%, 9%));
+    height: 390px;
+    width: 385px;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    border-radius: 30px;
+}
+#star{
+    border-radius: 360px;
+    background-color: hsl(213, 19%, 18%);
+    font-size: 25px;
+    height: 50px;
+    width: 50px;
+    margin: 30px;
+    display: flex;
+    text-align: center;
+}
+#starP{
+    margin: 16%;
+}
+h1{
+    color: hsl(0, 0%, 100%);
+    margin-left: 30px;
+    font-family: 'Overpass', sans-serif;
+    font-size: 28px;
+}
+#mainTXT{
+    margin-left: 30px;
+    margin-right: 30px;
+    font-family: 'Overpass', sans-serif;
+    color: hsl(217, 12%, 63%);
+    font-size: 15px;
+    line-height: 25px;
+}
+
+
+#rating{
+    margin-left: 30px;
+    margin-right: 25px;
+}
+
+label {
+    display: inline-block;
+    margin-right: 12px;
+    color: hsl(216, 12%, 54%);
+    background-color: hsl(213, 19%, 18%);
+    font-family: 'Overpass', sans-serif;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+  
+input[type="radio"] {
+    display: none;
+}
+  
+input[type="radio"]:checked + label {
+    color:hsl(0, 0%, 100%);
+    background-color: hsl(25, 97%, 53%);
+}
+label:hover{
+    transition: 0.8s;
+    background-color: hsl(217, 12%, 63%);
+    color: hsl(0, 0%, 100%);
+}
+button{
+    margin: 15px;
+    margin-left: 30px;
+    margin-right: 30px;
+    height: 40px;
+    width: 82%;
+    border-radius: 30px;
+    cursor: pointer;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(25, 97%, 53%);
+    border: transparent;
+    font-family: 'Overpass', sans-serif;
+    letter-spacing: 2px;
+    font-size: 15px;
+}
+button:hover{
+    color:hsl(25, 97%, 53%);
+    background-color: hsl(0, 0%, 100%);
+}
